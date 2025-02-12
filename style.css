@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey;
+    background-image: url(/images/photo-1493246507139-91e8fad9978e.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container {
+    background: rgb(186, 176, 40);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 8px gold;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style:lower-roman;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background: #eee;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.9;
+    background: rgb(185, 185, 245);
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    cursor: progress;
+    padding: 5px;
+    transition-duration: 2s;
+    transition-delay: 3s;
+}
+@media screen and (max-width:500px ) {
+    body{
+        background-color: palevioletred;
+        font-size: 20px ;
+        font-style: italic;
+
+    }
+    
+}
